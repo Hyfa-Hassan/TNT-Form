@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    135deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-family: "work sans";
+  background-repeat: no-repeat;
+}
+.input-field {
+  width: 100%;
+}
+.header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+}
+.labels {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.signup {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.editform {
+  font-size: 19px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.delbutton {
+  position: fixed;
+  top: 0;
+  left: 200;
+  right: 0;
+}
+@media screen and (max-width: 320px) {
+  .App {
+    height: 600px;
+    width: 300px;
+  }
+}
